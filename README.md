@@ -131,7 +131,8 @@ from whoServer to stdout and can terminate. When all threads are terminated, the
 
 ## Execution:
 1. **make**
-2. - **make whoServer && ./whoServer -q 5000 -s 6000 -w 10 -b 5**
+2. 
+- **make whoServer && ./whoServer -q 5000 -s 6000 -w 10 -b 5**
 - **make Master && ./master -w 13 -b 1 -s 192.168.1.15 -p 6000 -i input_dir**
 - **make whoClient && ./whoClient -q examples.txt -w 10 -sp 5000 -sip 192.168.1.15**
 3. **make clean**
