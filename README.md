@@ -137,3 +137,9 @@ from whoServer to stdout and can terminate. When all threads are terminated, the
 - **make whoClient && ./whoClient -q examples.txt -w 10 -sp 5000 -sip 192.168.1.15**
 3. **make clean**
 
+## query_file.py
+
+This is a script that creates a file with queries. You can run this python script as above:
+
+python scripts/query_file.py --queryFile infos/new_queries --numQueries 1000 --commandsFile infos/commands.txt --countriesFile infos/countries --diseasesFile infos/diseases --maxK 6 --maxRecordID 1000 --startDate 10-10-2000 --endDate 10-10-2020
+
